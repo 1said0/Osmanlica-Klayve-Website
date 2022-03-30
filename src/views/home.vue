@@ -4,15 +4,9 @@
     <div class="mid">
       <h1 class="hero-text">Osmanlıca Klavye artık tüm cihazlarda</h1>
       <button class="">
+
         <router-link
-          v-if="getOS() === 'windows'"
-          to="/windows"
-          class="m-button"
-        >
-          Windows için indir
-        </router-link>
-        <router-link
-          v-else-if="getOS() === 'macos'"
+          v-if="getOS() === 'macos'"
           to="/macos"
           class="m-button"
         >
@@ -24,6 +18,14 @@
           class="m-button"
         >
           Android için indir
+        </router-link>
+
+        <router-link
+            v-else
+            to="/windows"
+            class="m-button"
+        >
+          Windows için indir
         </router-link>
       </button>
       <h4 class="hero-subtext">
