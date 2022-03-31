@@ -1,7 +1,7 @@
 <template>
   <article class="bodym">
     <h1>Windows için Osmanlıca Klavye</h1>
-    <a class="hero-button" href="https://drive.google.com/uc?export=download&id=1oc_S9ePbYzb290XvpYyKQrTFSrB-G5Ui" download="Osmanlıca-klavyeler-windows.zip"> Şimdi İndir</a>
+    <a class="hero-button" href="https://drive.google.com/uc?export=download&id=1oc_S9ePbYzb290XvpYyKQrTFSrB-G5Ui" download="osmanlicaklavyeler.zip"> Şimdi İndir</a>
     <h4 class="hero-subtext">Windows Vista,8,10</h4>
     <h3 class="kurulum-klavuz">Kurulum Klavuzu</h3>
     <div class="parag">
